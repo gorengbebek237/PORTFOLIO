@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-width=1.0">
+    <title>Portofolio | Muhammad Luqman Hakim</title>
+    
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts (Inter) untuk tampilan bersih, minimalis, dan modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome untuk ikon sosial media dan kartu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">PORTFOLIO <span>VIEW</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#organisasi">Organisasi</a></li>
+                <li><a href="#sertifikat">Sertifikat</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <!-- Ikon Hamburger untuk layar HP -->
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        
+        <!-- Section: Home -->
+        <section id="home" class="section">
+            <div class="container hero">
+                <div class="hero-content">
+                    <h1>Halo, Saya <br><span>Muhammad Luqman Hakim</span></h1>
+                    <p>Lulusan Sistem Komputer dari Universitas Gunadarma yang berdedikasi tinggi di bidang Internet of Things (IoT), Embedded Systems, dan Infrastruktur Jaringan. Berpengalaman merancang sistem cerdas secara end-to-end, mulai dari desain PCB, pemrograman mikrokontroler (ESP32/Arduino), hingga integrasi cloud (Firebase) dan dashboard web. Saat ini sedang mempersiapkan sertifikasi CCNA guna mengimplementasikan infrastruktur IT yang aman, andal, dan terukur.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Lihat Project</a>
+                        <a href="#contact" class="btn">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder untuk foto profil -->
+                    <img src="images/foto-profil.jpeg" alt="Foto Luqman">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Pendidikan -->
+        <section id="pendidikan" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Pendidikan</h2>
+                <!--<p class="section-description">Latar belakang pendidikan akademis di bidang Sistem Komputer.</p> -->
+                
+                <div class="timeline">
+                    <div class="timeline-card">
+                        <!-- Header: Logo Kecil + Judul Kampus -->
+                        <div class="univ-header">
+                            <img src="images/logo-gunadarma.jpg" alt="Logo Gunadarma" class="univ-logo-small">
+                            <h3>Universitas Gunadarma</h3>
+                        </div>
+                        
+                        <!-- Detail Subtitle & IPK -->
+                        <p class="subtitle">S1 Sistem Komputer | Graduated 2026</p>
+                        <div class="gpa-badge">
+                            <i class="fas fa-award"></i> IPK: <strong>3.76</strong> / 4.00
+                        </div>
+
+                        <!-- Deskripsi -->
+                        <p class="desc">
+                            Fakultas Ilmu Komputer dan Teknologi Informasi. Berfokus pada arsitektur sistem komputer, <i>embedded system</i>, Internet of Things, dan Infrastruktur jaringan.
+                        </p>
+
+                        <!-- Poin Pencapaian -->
+                        <ul class="edu-highlights">
+                            <li><strong>LSP Universitas Gunadarma:</strong> Kualifikasi 6 Bidang Elekronika Prototipe Dan Pemrograman</li>
+                            <li><strong>Penulisan Ilmiah:</strong> Prototipe Smart Office Berbasis ESP32 Untuk Otomasi Akses Pintu, Pencahayaan, dan Pemantauan Suhu Terintegrasi Google Spreadsheet</li>
+                            <li><strong>Skripsi:</strong> Rancang Bangun Accesss Control dan Kendali Lampu Otomatis Pada Ruang Kantor Berbasis Internet Of Things</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Organisasi -->
+        <section id="organisasi" class="section">
+            <div class="container">
+                <h2 class="section-title">Pengalaman Organisasi</h2>
+                <!-- <p class="section-description">Aktivitas dan kontribusi dalam organisasi laboratorium serta akademik.</p> -->
+                
+                <div class="list-container">
+                    <div class="org-card">
+                        <!-- Header Kartu: Logo/Ikon + Nama Organisasi -->
+                        <div class="org-header">
+                            <!-- Gunakan logo PSMURO (atau gambar placeholder jika belum ada) -->
+                            <img src="images/logo-psmuro.jpeg" alt="Logo PSMURO" class="org-logo-small">
+                            <div>
+                                <h3>Pusat Studi Multimedia & Robotika (PSMURO)</h3>
+                                <p class="subtitle">Asisten Lab | Universitas Gunadarma</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Deskripsi Peran -->
+                        <p class="desc">
+                            Pusat Studi Multimedia dan Robotika (PSMURO) Universitas Gunadarma merupakan laboratorium riset dan pengembangan yang berfokus pada integrasi teknologi multimedia, sistem cerdas, serta robotika untuk mendukung kemajuan pendidikan, penelitian, dan inovasi di Indonesia. Sebagai bagian dari ekosistem akademik Universitas Gunadarma, laboratorium ini berperan sebagai wadah penelitian interdisipliner, pelatihan, serta pengembangan teknologi terapan yang dapat diaplikasikan pada berbagai bidang, mulai dari industri, pendidikan, hingga layanan masyarakat.
+                        </p>
+
+                        <!-- Poin-Poin Kontribusi / Tanggung Jawab -->
+                        <ul class="org-highlights">
+                            <li>Mengembangkan dan memelihara modul praktikum serta perangkat keras berbasis mikrokontroler.</li>
+                            <li>Membimbing mahasiswa dalam kegiatan praktikum dan pelatihan teknis di bidang <i>embedded system</i>.</li>
+                            <li>Berkolaborasi dalam riset dan pengembangan proyek otomatisasi serta robotika di lingkungan pusat studi.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Sertifikat & Pelatihan -->
+        <section id="sertifikat" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Lisensi & Sertifikasi</h2>
+                <p class="section-description">Sertifikasi kompetensi dan pelatihan profesional yang telah diselesaikan.</p>
+                
+                <!-- Wadah Kartu Sertifikat (Dirender Otomatis oleh JS) -->
+                <div id="certContainer" class="cert-container"></div>
+
+                <!-- Wadah Tombol 'Show All / Tampilkan Semua' -->
+                <div class="cert-toggle-wrapper">
+                    <button id="certToggleBtn" class="cert-toggle-btn"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Projects (Gaya Grid ala PSMURO) -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="card-image">
+                            <span class="badge">Skripsi</span>
+                            <img src="images/foto-skripsi.jpeg" alt="Smart Office">
+                        </div>
+                        <div class="card-content">
+                            <h3>Rancang Bangun Accesss Control dan Kendali Lampu Otomatis Pada Ruang Kantor Berbasis Internet Of Things</h3>
+                            <p>Merancang access control dan kendali lampu otomatis pada ruang kantor agar kondisi pada ruangan dapat dipantau secara otomatis dan real-time, tanpa perlu pemantauan langsung di lokasi.</p>
+                            <a href="#" class="explore-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="card-image">
+                            <span class="badge">Proyek Sistem Komputer</span>
+                            <img src="images/foto-psk.png" alt="Smart Greenhouse">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sistem Monitoring Ketersediaan Barang dan Otomatisasi Lampu serta Kipas pada Gudang Sembako Berbasis Internet of Things dan Firebase</h3>
+                            <p>Merancang sistem monitoring ketersediaan barang pada Gudang dan otomatisasi lampu berbasis Internet of Things agar ketersediaan barang dan kondisi gudang dapat dipantau secara otomatis dan real-time, serta lampu dan kipas dapat bekerja secara efisien tanpa perlu pemantauan langsung di lokasi.</p>
+                            <a href="https://drive.google.com/drive/u/0/folders/1FXp2iotVfdKlMzP7qJBPVHCst2_qZbBy" target ="_blank" class="explore-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="card-image">
+                            <span class="badge">Computer Vision</span>
+                            <img src="https://via.placeholder.com/400x250" alt="Face Recognition">
+                        </div>
+                        <div class="card-content">
+                            <h3>Real-time Face Recognition</h3>
+                            <p>Prototipe sistem keamanan menggunakan Python, OpenCV, dan DeepFace untuk deteksi banyak wajah sekaligus.</p>
+                            <a href="#" class="explore-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Area Kontak -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Mari Berkolaborasi!</h3>
+                <p>Saya terbuka untuk mendiskusikan inovasi teknologi atau peluang kerja sama.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/muhammad-luqman-hakim-b92bb6419/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:muham.luqman04@gmail.com" id="emailSocialBtn" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://t.me/muhamluqman04" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Muhammad Luqman Hakim.</p>
+        </div>
+    </footer>
+
+    <!-- Link ke file JavaScript eksternal -->
+    <script src="script.js"></script>
+
+<!-- Pop-up Modal Detail Sertifikat -->
+<div id="certModal" class="modal" aria-hidden="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+        <div class="modal-header">
+            <span id="modalHeaderTitle">Detail Sertifikasi</span>
+            <button class="modal-close-btn" aria-label="Tutup modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <!-- Hanya Kolom Informasi (Kolom Gambar Dihapus) -->
+            <div class="modal-info-col">
+                <h3 id="modalCertTitle"></h3>
+                <p id="modalCertSubtitle" class="modal-cert-subtitle"></p>
+                <p id="modalCertDesc"></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
