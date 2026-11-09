@@ -108,6 +108,16 @@ initDefaultSection();
         {
             id: 1,
             type: "Pelatihan",
+            title: "Training Course CCNA 200-301",
+            issuer: "ID Networkers",
+            logo: "images/logo-idn.jpg",
+            pdfUrl: "files/Training-CCNA-IDN.pdf",
+            certImg: "images/sertifikat-routing.jpg",
+            desc: "Completed a foundational networking certification program covering end-to-end network infrastructure setup. Gained practical and theoretical knowledge in OSI Layers, gathering user requirements, analyzing network devices, designing topologies, and executing network cable preparation and physical installation."
+        },
+        {
+            id: 1,
+            type: "Pelatihan",
             title: "Identifikasi Kebutuhan Jaringan Komputer",
             issuer: "Universitas Gunadarma",
             logo: "images/logo-gunadarma.jpg",
